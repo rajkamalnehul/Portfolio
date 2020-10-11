@@ -1,18 +1,17 @@
-
-.container
-{
-    width: 60%;
+.Nav{
+    width: 20%;
 	height: 90%;
 	position: absolute;
 	top: 4%;
-	left: 28%; 
-    line-height: 1;
-    padding-left: 10px;
-    padding-right: 10px;
+	left: 4%; 
+	
+	
+	padding: 0;
+    line-height: 2;
+    text-align: center;
     border-radius: 30px;
+
     background: linear-gradient(145deg, #e697bf, #ffb4e3);
     box-shadow:  7px 7px 14px #664355, 
-             -6px -6px 12px #ffffff;
+             -7px -7px 14px #ffffff;
 }
-
-

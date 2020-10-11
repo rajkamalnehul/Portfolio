@@ -1,0 +1,46 @@
+.btn-con{
+    top:55%;
+    position: absolute;
+    text-align: center;
+}
+
+
+.btn{
+    display:inline-block;
+    height:35px;
+    width: 80%;
+    
+    cursor: pointer;
+    margin: 15px;
+    border:none;
+    
+    
+
+    border-radius: 25px;
+    font-size:15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#6b6a6a;
+    text-decoration: none;
+    background: linear-gradient(315deg, #f6a2cc, #cf88ac);
+    box-shadow:  -5px -5px 10px #fff2ff ,
+                 5px 5px 10px #5c3c4c; 
+
+             
+    
+    
+    
+}
+
+.active, .btn:hover{
+    background: #e697bf;
+    box-shadow: inset 3px 3px 6px #5c3c4c, 
+            inset -3px -3px 6px #fff2ff;
+}
+
+.div Link{
+    text-align: center;
+    justify-content: center;
+}
+
