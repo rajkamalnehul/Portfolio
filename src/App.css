@@ -10,9 +10,8 @@
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 30px;
-    background: linear-gradient(145deg, #e697bf, #ffb4e3);
-    box-shadow:  7px 7px 14px #664355, 
-             -6px -6px 12px #ffffff;
+    background: #D2DEEF;
+     box-shadow: 3px 3px 6px  rgba(18, 18, 19, 0.288), -3px -3px 6px #E5F2FF;
+
+
 }
-
-

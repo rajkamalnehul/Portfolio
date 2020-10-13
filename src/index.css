@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #e697bf;
+  background-color: #D2DEEF;
 }
 
 code {
@@ -14,7 +14,7 @@ code {
 }
 
 footer{
-  color:rgb(117, 57, 107);
+  color:rgb(85, 81, 84);
   bottom: 0%;
   justify-content: center;
   text-align: center;

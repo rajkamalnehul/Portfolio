@@ -22,9 +22,8 @@
     justify-content: center;
     text-decoration: none;
     overflow: hidden;
-    background: linear-gradient(145deg, #ffb4e3, #e697bf);
-    box-shadow:  5px 5px 10px #664355, 
-                 -5px -5px 10px #ffffff;
+    background: #D2DEEF;
+    box-shadow: 3px 3px 6px  rgba(18, 18, 19, 0.288), -3px -3px 6px #E5F2FF;
     border: 1px solid rgba(0,0,0,0);
 
     
@@ -33,14 +32,14 @@
 }
 .social-btn i{
     font-size: 42px;
-    color:#777777
+    color:rgb(128, 128, 128);
 }
 
 .social-btn:hover{
     
-    background: #ffa8d4;
-    box-shadow: inset 5px 5px 6px #6b5560, 
-                inset -5px -5px 6px #ffffff;
+    background: #D2DEEF;
+    box-shadow: inset 2px 2px 5px  #545960, 
+                inset -2px -2px 5px #ffffff;
                  
 
     

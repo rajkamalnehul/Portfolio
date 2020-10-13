@@ -10,8 +10,47 @@
     line-height: 2;
     text-align: center;
     border-radius: 30px;
-
-    background: linear-gradient(145deg, #e697bf, #ffb4e3);
-    box-shadow:  7px 7px 14px #664355, 
-             -7px -7px 14px #ffffff;
+    overflow: hidden;
+    background: #D2DEEF;
+     box-shadow: 3px 3px 6px  rgba(18, 18, 19, 0.288), -3px -3px 6px #E5F2FF;
 }
+
+.neu1{
+    width: 180px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 6px  rgba(18, 18, 19, 0.288), 
+               -1px -1px 3px #ffffff;
+
+  }
+  .neu2{
+    
+    position: absolute;
+    top: 8%;
+    left: 12%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: inset 3px 3px 6px  rgba(18, 18, 19, 0.288), 
+    inset -1px -1px 3px #ffffff;
+    text-shadow:2px 2px 4px  rgba(18, 18, 19, 0.288), -2px -2px 4px #E5F2FF;
+}
+
+.profile_pic{
+
+border-radius: 50%;
+width:170px;
+  
+}
+
+.neu2 h2{
+    margin-bottom: 0px;
+}
+
+.neu2 span{
+    margin-bottom: 
+}
+
+  
+  

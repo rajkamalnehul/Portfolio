@@ -23,9 +23,8 @@
     letter-spacing: 2px;
     color:#6b6a6a;
     text-decoration: none;
-    background: linear-gradient(315deg, #f6a2cc, #cf88ac);
-    box-shadow:  -5px -5px 10px #fff2ff ,
-                 5px 5px 10px #5c3c4c; 
+    background: linear-gradient(145deg, #bdc8d7, #e1eeff);
+    box-shadow:  3px 3px 6px  rgba(18, 18, 19, 0.288), -3px -3px 6px #edf3fa;
 
              
     
@@ -34,9 +33,9 @@
 }
 
 .active, .btn:hover{
-    background: #e697bf;
-    box-shadow: inset 3px 3px 6px #5c3c4c, 
-            inset -3px -3px 6px #fff2ff;
+    background: #D2DEEF;
+    box-shadow: inset 2px 2px 5px  #545960, 
+                inset -2px -2px 5px #f3f6fa;
 }
 
 .div Link{
