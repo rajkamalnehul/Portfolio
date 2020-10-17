@@ -1,0 +1,29 @@
+.projects{
+   
+    display: grid;
+    grid-template-columns: auto auto ;
+
+    justify-content: space-evenly;
+    
+    border-color: black;
+    
+
+}
+
+
+
+h1{
+  font-size: 35px;
+    letter-spacing: 2px;
+    text-shadow:3px 3px 6px  rgba(18, 18, 19, 0.288), -4px -4px 8px #E5F2FF;
+}
+
+
+@media (max-width: 800px) {
+    .projects {
+      display:flex;
+      flex-direction: column;
+      
+     
+    }
+  }

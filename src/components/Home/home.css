@@ -13,9 +13,17 @@
   
 }
 .profilepic{
-  display: flex;
-  width:300px;
-  height:300px;
+  width:350px;
+  height:350px;
+}
+
+@media (max-width: 800px) {
+  .profilepic {
+    width:250px;
+    height:250px;
+    
+   
+  }
 }
 
   
