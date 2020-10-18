@@ -1,23 +1,34 @@
-import React from 'react';
-import './social.css';
+import React from "react";
+import "./social.css";
 
 function Social() {
+  return (
+    <div className="social">
+      <div className="social-btn">
+        <a href="#">
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </div>
 
-        return (
-            <div className='social'>
-               <a className='social-btn' href="#"><i class="fa fa-linkedin"></i></a>
-               <br/>
-               <a className='social-btn' href="#"><i class="fa fa-github"></i> </a> 
-               <br/>
-               <a className='social-btn' href="#"><i class="fa fa-twitter"></i></a> 
-               <br/>
-               <a className='social-btn' href="#"><i class="fa fa-instagram"></i></a> 
-               
-            
-            </div>
-            )
-        
-    }
-    
-export default Social
-    
+      <div className="social-btn">
+        <a href="#">
+          <i class="fa fa-github"></i>{" "}
+        </a>
+      </div>
+
+      <div className="social-btn">
+        <a href="#">
+          <i class="fa fa-twitter"></i>
+        </a>
+      </div>
+
+      <div className="social-btn">
+        <a href="#">
+          <i class="fa fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  );
+}
+
+export default Social;

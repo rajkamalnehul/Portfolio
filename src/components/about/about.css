@@ -1,92 +1,125 @@
+.educationCon {
+  display: flex;
+  flex-direction: row;
+}
 
+.edu {
+  display: flex;
+  flex-direction: row;
+}
+.edCon {
+  padding: 20px 20px;
+}
+.edu h4 {
+  margin: 0;
+}
+.hr_line {
+  width: 70px;
+  height: 10px;
+  border-radius: 5px;
+  box-shadow: inset -3px -3px 7px #ffffff73,
+    inset 3px 3px 5px rgba(18, 18, 19, 0.288);
+  margin-left: 5px;
+}
+.hr_inner {
+  width: 40px;
+  height: 8px;
+  border-radius: 5px;
+  margin: 2.5px 15px;
+  background: linear-gradient(
+    120deg,
+    rgba(245, 108, 109, 1) 0,
+    rgba(245, 108, 109, 1) 100%
+  );
+}
 
+.skills {
+  display: inline-block;
+  /* margin: 0 0 0 10px; */
+  /* position:absolute; */
+}
 
-.hr_line{
-    width: 70px;
-    height: 10px;
-    border-radius: 5px;
-    box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
-    margin-left: 5px;
+.sk {
+  text-align: center;
+  display: inline-block;
+  height: 35px;
+  width: 105px;
+  cursor: pointer;
+  margin: 15px;
+  border: none;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #d2deef;
+  box-shadow: inset 2px 2px 5px #545960, inset -2px -2px 5px #f3f6fa;
+  line-height: 2;
+}
 
-  }
-  .hr_inner{
-    width: 40px;
-    height: 8px;
-    border-radius: 5px;
-    margin: 2.5px 15px;
-    background: linear-gradient(120deg,rgba(245, 108, 109,1) 0,rgba(245, 108, 109,1) 100%);
-  }
-  
-  .skills{
-      display: inline-block;
-      top:50%;
-      left: 58%;
-      position:absolute;
-  }
+.book {
+  font-size: large;
+}
 
-  .sk{
-  
-    text-align: center;
-    display:inline-block;
-    height:35px;
-    width: 105px;
-    cursor: pointer;
-    margin: 15px;
-    border:none;
-     border-radius: 25px;
-    font-size:15px;
-    font-weight: bold;
-    text-transform: uppercase;
-    background: #D2DEEF;
-    box-shadow: inset 2px 2px 5px  #545960, 
-                inset -2px -2px 5px #f3f6fa;
-    line-height: 2;
-    
-  }
+.fa-book {
+  font-size: 30px;
+  color: rgb(240, 78, 78);
+}
 
-  .book{
-    font-size: large;
-  }
+.about h1 {
+  font-size: 35px;
+  letter-spacing: 2px;
+  text-shadow: 3px 3px 6px rgba(18, 18, 19, 0.288), -4px -4px 8px #e5f2ff;
+}
 
-  .fa-book{
-    font-size: 30px;
-   color:rgb(240, 78, 78);
-  }
+.vr_line {
+  width: 10px;
+  height: 310px;
+  border-radius: 5px;
+  /* position: absolute;
+    top: 42%; */
 
-  .about h1{
-    font-size: 35px;
-    letter-spacing: 2px;
-    text-shadow:3px 3px 6px  rgba(18, 18, 19, 0.288), -4px -4px 8px #E5F2FF;
-    
-  }
+  box-shadow: inset -3px -3px 7px #ffffff73,
+    inset 3px 3px 5px rgba(18, 18, 19, 0.288);
+}
+.vr_inner {
+  width: 10px;
+  height: 15px;
+  border-radius: 5px;
+  background: linear-gradient(
+    120deg,
+    rgba(245, 108, 109, 1) 0,
+    rgba(245, 108, 109, 1) 100%
+  );
+}
+.inn1 {
+  margin-top: 3px;
+}
+.inn2 {
+  margin-top: 85px;
+}
 
-  .vr_line{
-    width: 10px;
-    height: 310px;
-    border-radius: 5px;
-    position: absolute;
-    top: 42%;
-   
-    box-shadow: inset -3px -3px 7px #ffffff73, inset 3px 3px 5px rgba(18, 18, 19, 0.288);
-  }
-  .vr_inner{
-    width: 10px;
-    height: 15px;
-    border-radius: 5px;
-    background: linear-gradient(120deg,rgba(245, 108, 109,1) 0,rgba(245, 108, 109,1) 100%);
-  }
-  .inn1{
-    margin-top: 3px;
-  }
-  .inn2{
-    margin-top: 85px;
-  }
+.inn3 {
+  margin-top: 95px;
+}
 
-  .inn3{
-    margin-top: 95px;
-  }
+.edu-content {
+  margin-left: 20px;
+}
 
-  .edu-content{
-   
-    margin-left: 20px;
+@media screen and (max-width: 500px) {
+  .educationCon {
+    display: flex;
+    flex-direction: column;
   }
+  .edu-content {
+    text-align: left;
+  }
+  .aboutDes {
+    max-width: 90%;
+    text-align: justify;
+    margin-left: 10px;
+  }
+  .hr_line {
+    margin: 0 auto;
+  }
+}

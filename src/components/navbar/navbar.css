@@ -1,55 +1,54 @@
-.Nav{
-    width: 20%;
-	height: 90%;
-	position: absolute;
+.Nav {
+  /* margin-top: 4%; */
+  width: 20%;
+  /* height: 100%; */
+  /* position: absolute;
 	top: 4%;
-	left: 4%; 
-	
-	
-	padding: 0;
-    line-height: 2;
-    text-align: center;
-    border-radius: 30px;
-    overflow: hidden;
-    background: #D2DEEF;
-     box-shadow: 3px 3px 6px  rgba(18, 18, 19, 0.288), -3px -3px 6px #E5F2FF;
+	left: 4%;  */
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  line-height: 2;
+  text-align: center;
+  border-radius: 30px;
+  overflow: hidden;
+  background: #d2deef;
+  box-shadow: 3px 3px 6px rgba(18, 18, 19, 0.288), -3px -3px 6px #e5f2ff;
 }
-
-.neu1{
-    width: 180px;
-    height: 180px;
-    margin: 10px;
-    border-radius: 50%;
-    box-shadow: 3px 3px 6px  rgba(18, 18, 19, 0.288), 
-               -1px -1px 3px #ffffff;
-
+@media screen and (max-width: 500px) {
+  .Nav {
+    width: 85%;
   }
-  .neu2{
- 
-    
-    position: absolute;
+}
+
+.neu1 {
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 6px rgba(18, 18, 19, 0.288), -1px -1px 3px #ffffff;
+}
+.neu2 {
+  /* position: absolute;
     top: 8%;
-    left: 12%;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    box-shadow: inset 4px 4px 6px  rgba(18, 18, 19, 0.288), 
+    left: 12%; */
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: inset 4px 4px 6px rgba(18, 18, 19, 0.288),
     inset -1px -1px 3px #ffffff;
-    text-shadow:2px 2px 4px  rgba(18, 18, 19, 0.288), -2px -2px 4px #E5F2FF;
+  text-shadow: 2px 2px 4px rgba(18, 18, 19, 0.288), -2px -2px 4px #e5f2ff;
 }
 
-.profile_pic{
-
-border-radius: 50%;
-width:170px;
-height: 170px;
-margin: 5px;
-  
+.profile_pic {
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  margin: 5px;
 }
 
-.neu2 h2{
-    margin-bottom: 0px;
+.neu2 h2 {
+  margin-bottom: 0px;
 }
-
-
- 
