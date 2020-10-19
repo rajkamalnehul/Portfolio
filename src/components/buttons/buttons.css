@@ -1,6 +1,5 @@
 .btn-con{
-    /* top:55%;
-    position: absolute; */
+   
     text-align: center;
 }
 
@@ -8,7 +7,7 @@
 .btn{
     display:inline-block;
     height:35px;
-    width: 80%;
+    width: 85%;
     
     cursor: pointer;
     margin: 15px;

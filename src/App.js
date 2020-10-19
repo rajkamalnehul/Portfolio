@@ -23,12 +23,7 @@ function App() {
         </BrowserRouter>
         <Social />
       </div>
-      <div className="footer">
-        <p>
-          Made with <i class="fa fa-heart"></i> and{" "}
-          <i class="fa fa-coffee">...</i>
-        </p>
-      </div>
+     
     </React.Fragment>
   );
 }
