@@ -1,5 +1,6 @@
+/** @format */
+
 .social {
-  
   display: flex;
   flex-direction: column;
   margin-top: 12%;
@@ -33,7 +34,7 @@
   transform: scale(0.9);
 }
 
-.social-btn:hover .fa-instagram {
+.social-btn:hover .fa-free-code-camp {
   color: #db1842;
 }
 .social-btn:hover .fa-linkedin {
@@ -46,7 +47,7 @@
   color: rgb(83, 79, 79);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .social {
     display: flex;
     flex-direction: row;
@@ -55,8 +56,8 @@
 
   .social-btn {
     display: flex;
-    height: 65px;
-    width: 65px;
+    height: 55px;
+    width: 55px;
     margin: 0 15px;
     border-radius: 8px;
     align-items: center;
@@ -68,7 +69,7 @@
     border: 1px solid rgba(0, 0, 0, 0);
   }
   .social-btn i {
-    font-size: 42px;
+    font-size: 32px;
     color: rgb(128, 128, 128);
   }
 }

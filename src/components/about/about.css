@@ -1,3 +1,5 @@
+/** @format */
+
 .educationCon {
   display: flex;
   flex-direction: row;
@@ -34,9 +36,12 @@
 }
 
 .skills {
-  display: inline-block;
-  /* margin: 0 0 0 10px; */
-  /* position:absolute; */
+  display: inline;
+  margin-left: 30px;
+}
+
+.skills > h3 {
+  margin-top: 30px;
 }
 
 .sk {
@@ -73,7 +78,7 @@
 
 .vr_line {
   width: 10px;
-  height: 310px;
+  height: 340px;
   border-radius: 5px;
   /* position: absolute;
     top: 42%; */
@@ -95,11 +100,11 @@
   margin-top: 3px;
 }
 .inn2 {
-  margin-top: 85px;
+  margin-top: 120px;
 }
 
 .inn3 {
-  margin-top: 95px;
+  margin-top: 120px;
 }
 
 .edu-content {
@@ -121,5 +126,21 @@
   }
   .hr_line {
     margin: 0 auto;
+  }
+  .skills {
+    margin-left: 0px;
+  }
+  .vr_line {
+    height: 310px;
+  }
+  .inn1 {
+    margin-top: 3px;
+  }
+  .inn2 {
+    margin-top: 80px;
+  }
+
+  .inn3 {
+    margin-top: 90px;
   }
 }

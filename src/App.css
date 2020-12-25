@@ -1,3 +1,5 @@
+/** @format */
+
 .App {
   display: flex;
   flex-direction: row;
@@ -5,24 +7,35 @@
   padding: 20px 20px;
 }
 
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
 .container {
   /* margin-top: 10%; */
   /* position: absolute;
 	top: 4%;
     left: 28%;  */
-    margin-top: 5px;
-    margin-left: 2%;
-    width: 60%;
-    height: 85vh;
-    line-height: 1;
-    padding: 20px 20px;
-    border-radius: 30px;
-    background: #d2deef;
-    box-shadow: 3px 3px 6px rgba(18, 18, 19, 0.288), -3px -3px 6px #e5f2ff;
-    overflow-y: auto;
+  margin-top: 5px;
+  margin-left: 2%;
+  width: 60%;
+  height: 85vh;
+  line-height: 1;
+  padding: 20px 20px;
+  border-radius: 30px;
+  background: #d2deef;
+
+  box-shadow: 3px 3px 6px rgba(18, 18, 19, 0.288), -3px -3px 6px #e5f2ff;
+
+  overflow-y: auto;
+  opacity: 0.85;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   .App {
     display: flex;
     flex-direction: column;
@@ -38,13 +51,13 @@
     /* position: absolute;
 	top: 4%;
     left: 28%;  */
-   
+
     line-height: 1;
     padding: 10px 10px;
     border-radius: 30px;
     background: #d2deef;
     box-shadow: 3px 3px 6px rgba(18, 18, 19, 0.288), -3px -3px 6px #e5f2ff;
-     overflow-y: auto; 
+    overflow-y: auto;
   }
 }
 

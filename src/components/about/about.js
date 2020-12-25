@@ -1,3 +1,5 @@
+/** @format */
+
 import React from "react";
 import "./about.css";
 
@@ -11,8 +13,14 @@ function About() {
         </div>
         <h2> Raj Kamal Nehul</h2>
         <p className="aboutDes">
-          Hi, Welcome to my mini portfolio. I am Raj and I am a recent graduate.
-          I have keen interest in web development and building interactive UI.
+          I am a self taught web developer with strong eye for innovative design
+          and a keen understanding of techniques. I have keen interest in web
+          development and building interactive UI and currently looking for jobs
+          to apply my knowledge and skills. As a qualified Software Engineer, I
+          am adept in web development and web design and beleve that will prove
+          to be an asset for the company. I like learning from all the resources
+          available on the internet and apply those learnig by building
+          projects.
         </p>
       </div>
       <div className="educationCon">
@@ -55,6 +63,9 @@ function About() {
           <p className="sk">React.js</p>
           <p className="sk">Bootstrap</p>
           <p className="sk">Redux</p>
+          <p className="sk">Context Api</p>
+          <p className="sk">Material UI</p>
+          <p className="sk">Firebase</p>
         </div>
       </div>
     </div>
