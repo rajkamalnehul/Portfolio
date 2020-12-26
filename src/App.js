@@ -12,7 +12,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Particles from "react-particles-js";
 
 const particleOptions = {
-  /*particles: {
+  /* particles: {
     number: {
       value: 400,
       density: {
@@ -21,7 +21,7 @@ const particleOptions = {
       },
     },
     color: {
-      value: "#76a5e8",
+      value: "ffffff",
     },
     shape: {
       type: "circle",
@@ -121,7 +121,7 @@ const particleOptions = {
     },
     move: {
       enable: true,
-      speed: 15,
+      speed: 10,
     },
     line_linked: {
       enable: false,
@@ -140,7 +140,7 @@ const particleOptions = {
       },
     },
     repulse: {
-      distance: 50,
+      distance: 10,
       duration: 0.1,
     },
   },

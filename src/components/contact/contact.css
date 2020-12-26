@@ -6,3 +6,12 @@
 
   justify-content: space-evenly;
 }
+
+.MuiButton-contained {
+  background: linear-gradient(
+    120deg,
+    rgba(245, 108, 109, 1) 0,
+    rgb(247, 91, 91) 100%
+  );
+  box-shadow: 3px 3px 6px rgba(18, 18, 19, 0.288), -3px -3px 6px #edf3fa;
+}

@@ -37,7 +37,7 @@ export default function ImgMediaCard() {
 
   setTimeout(() => {
     setLoader(false);
-  }, 4000);
+  }, 5000);
 
   return (
     <div className="container">
@@ -160,12 +160,27 @@ export default function ImgMediaCard() {
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" color="primary">
-              View Demo
-            </Button>
-            <Button size="small" color="primary">
-              Source Code
-            </Button>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://sharp-curran-crownecommerce.netlify.app"
+              target="_blank"
+            >
+              {" "}
+              <Button size="small" color="primary">
+                View Demo
+              </Button>
+            </a>
+
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://github.com/rajkamalnehul/ecommerce"
+              target="_blank"
+            >
+              {" "}
+              <Button size="small" color="primary">
+                Source Code
+              </Button>
+            </a>
           </CardActions>
         </Card>
         <Card className={classes.root}>
@@ -191,12 +206,26 @@ export default function ImgMediaCard() {
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" color="primary">
-              View Demo
-            </Button>
-            <Button size="small" color="primary">
-              Source Code
-            </Button>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://dreamy-snyder-42175c.netlify.app"
+              target="_blank"
+            >
+              {" "}
+              <Button size="small" color="primary">
+                View Demo
+              </Button>
+            </a>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://github.com/rajkamalnehul/TaskBoard-2.0"
+              target="_blank"
+            >
+              {" "}
+              <Button size="small" color="primary">
+                Source Code
+              </Button>
+            </a>
           </CardActions>
         </Card>
         <Card className={classes.root}>
@@ -222,12 +251,26 @@ export default function ImgMediaCard() {
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" color="primary">
-              View Demo
-            </Button>
-            <Button size="small" color="primary">
-              Source Code
-            </Button>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://pensive-jennings-covid19tracker.netlify.app"
+              target="_blank"
+            >
+              {" "}
+              <Button size="small" color="primary">
+                View Demo
+              </Button>
+            </a>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://github.com/rajkamalnehul/covid19tracker"
+              target="_blank"
+            >
+              {" "}
+              <Button size="small" color="primary">
+                Source Code
+              </Button>
+            </a>
           </CardActions>
         </Card>
         <Card className={classes.root}>
@@ -243,7 +286,7 @@ export default function ImgMediaCard() {
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="h2">
-                Portfolio
+                Basic Portfolio
               </Typography>
               <Typography
                 variant="body2"
@@ -253,12 +296,26 @@ export default function ImgMediaCard() {
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" color="primary">
-              View Demo
-            </Button>
-            <Button size="small" color="primary">
-              Source Code
-            </Button>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://rajkamalnehul.github.io/Assignment1-Portfolio-/"
+              target="_blank"
+            >
+              {" "}
+              <Button size="small" color="primary">
+                View Demo
+              </Button>
+            </a>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://github.com/rajkamalnehul/Assignment1-Portfolio-"
+              target="_blank"
+            >
+              {" "}
+              <Button size="small" color="primary">
+                Source Code
+              </Button>
+            </a>
           </CardActions>
         </Card>
         <Card className={classes.root}>
@@ -285,12 +342,26 @@ export default function ImgMediaCard() {
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" color="primary">
-              VIEW DEMO
-            </Button>
-            <Button size="small" color="primary">
-              SOURCE CODE
-            </Button>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://keen-hugle-275442-appointments.netlify.app"
+              target="_blank"
+            >
+              {" "}
+              <Button size="small" color="primary">
+                View Demo
+              </Button>
+            </a>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://github.com/rajkamalnehul/Appointments"
+              target="_blank"
+            >
+              {" "}
+              <Button size="small" color="primary">
+                Source Code
+              </Button>
+            </a>
           </CardActions>
         </Card>
         <Card className={classes.root}>
@@ -316,12 +387,26 @@ export default function ImgMediaCard() {
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" color="primary">
-              View Demo
-            </Button>
-            <Button size="small" color="primary">
-              Source Code
-            </Button>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://eager-kepler-198536-figma-to-webapp.netlify.app"
+              target="_blank"
+            >
+              {" "}
+              <Button size="small" color="primary">
+                View Demo
+              </Button>
+            </a>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://github.com/rajkamalnehul/starwisp-task"
+              target="_blank"
+            >
+              {" "}
+              <Button size="small" color="primary">
+                Source Code
+              </Button>
+            </a>
           </CardActions>
         </Card>
         <Card className={classes.root}>
@@ -347,12 +432,26 @@ export default function ImgMediaCard() {
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" color="primary">
-              View Demo
-            </Button>
-            <Button size="small" color="primary">
-              Source Code
-            </Button>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://serene-jepsen-monster-rolodex.netlify.app"
+              target="_blank"
+            >
+              {" "}
+              <Button size="small" color="primary">
+                View Demo
+              </Button>
+            </a>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://github.com/rajkamalnehul/MonsterRolodex"
+              target="_blank"
+            >
+              {" "}
+              <Button size="small" color="primary">
+                Source Code
+              </Button>
+            </a>
           </CardActions>
         </Card>
         <Card className={classes.root}>
@@ -378,12 +477,26 @@ export default function ImgMediaCard() {
             </CardContent>
           </CardActionArea>
           <CardActions>
-            <Button size="small" color="primary">
-              View Demo
-            </Button>
-            <Button size="small" color="primary">
-              Source Code
-            </Button>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://drive.google.com/file/d/1NgVXe65JLYmfpz5l4Ak3_KXA7aI5LdPa/view?usp=sharing"
+              target="_blank"
+            >
+              {" "}
+              <Button size="small" color="primary">
+                View Demo
+              </Button>
+            </a>
+            <a
+              style={{ textDecoration: "none" }}
+              href="https://github.com/rajkamalnehul/TaskBoard"
+              target="_blank"
+            >
+              {" "}
+              <Button size="small" color="primary">
+                Source Code
+              </Button>
+            </a>
           </CardActions>
         </Card>
       </div>

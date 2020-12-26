@@ -28,12 +28,7 @@ function Contact() {
           href="https://www.dropbox.com/s/rl388mf65kupxlg/Mr.Raj%20Kamal%20Nehul%28React.js%20Updated%29.pdf?dl=1"
         >
           <Tooltip title="Download Resume">
-            <Button
-              variant="contained"
-              color="secondary"
-              className="button"
-              startIcon={<CloudDownloadIcon />}
-            >
+            <Button variant="contained" startIcon={<CloudDownloadIcon />}>
               Resume
             </Button>
           </Tooltip>
@@ -44,12 +39,7 @@ function Contact() {
           href="mailto:rajkamalnehul@gmail.com"
         >
           <Tooltip title="rajkamalnehul@gmail.com">
-            <Button
-              variant="contained"
-              color="secondary"
-              className="button"
-              startIcon={<EmailIcon />}
-            >
+            <Button variant="contained" startIcon={<EmailIcon />}>
               EMail
             </Button>
           </Tooltip>
